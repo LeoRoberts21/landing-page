@@ -1,7 +1,7 @@
 .header {
     display: flex;
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-left: 100px;
+    margin-right: 100px;
     justify-content: space-between;
     background-color: #1F2937;
 }
@@ -21,4 +21,41 @@
     gap: 20px;
     font-family: Helvetica, Arial, sans-serif;
     color: whitesmoke;
+}
+
+
+.front {
+    display: flex;
+    height: 400px;
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: space-between;
+    background-color: #1F2937;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: Helvetica, Arial, sans-serif;
+    color: whitesmoke;
+}
+
+.right {
+    display: flex;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.b { 
+    background-color: lightskyblue;
+}
+
+.mid {
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
 }
