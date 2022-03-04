@@ -47,6 +47,10 @@
     margin-left: 100px;
 }
 
+.b {
+    background-color: #3882f6;
+}
+
 .right {
     display: flex;
     width: auto;
@@ -58,8 +62,8 @@
 
 
 img {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
   }
 
   .info {
@@ -70,6 +74,7 @@ img {
     display: flex;
     justify-content: center;
     gap: 52px;
+    margin-bottom: 75px;
   }
 
   .h2 { 
@@ -77,15 +82,56 @@ img {
       font-family: Helvetica, Arial, sans-serif;
       margin: 30px;
       color:black;
+      margin-top: 75px;
   }
   
   .quote-box {
       height: 400px;
-      display: flex;
-      
+      display: flex; 
+      background-color: #e5e7eb;
+      justify-content: center;
   }
 
   .text {
-      display: flex;
-      justify-content: center;
+align-self: center;
+justify-content: center;
+text-align: right;
+font-family: Helvetica, Arial, sans-serif;
   }
+
+  .c2 {
+      display: flex;
+      justify-content: space-between;
+      margin:100px;
+      margin-left: 150px;
+      margin-right: 150px;
+      background-color: #3882f6;
+      border-radius: 20px;
+  }
+
+  .b2 {
+      display:flex;
+      justify-content: center;
+      align-self: center;
+      margin-right: 100px;
+  }
+
+.cta {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px ;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: whitesmoke;
+}
+
+.footer {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+    background-color: #1F2937;
+    height: 75px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: whitesmoke;
+}
